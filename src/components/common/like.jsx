@@ -1,17 +1,16 @@
-import React, { Component } from 'react';
+import React from "react";
 
 const Like = (props) => {
-  let classes = "fa fa-heart"
-  if (!props.liked) classes += "-o"
+  let classes = "fa fa-heart";
+  if (!props.liked) classes += "-o";
   return (
-    <i 
+    <i
       onClick={props.onClick}
       style={{ cursor: "pointer" }}
-      className={classes} 
+      className={classes}
       aria-hidden="true"
-      >
-    </i> 
-  )
-}
- 
+    ></i>
+  );
+};
+
 export default Like;
