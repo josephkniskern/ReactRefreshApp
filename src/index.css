@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  padding: 20px 0 0 0;
+  padding: 0 0 0 0;
   font-family: sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -13,4 +13,25 @@ code {
 
 .clickable {
   cursor: pointer;
+}
+
+.navbar {
+  margin-bottom: 30px;
+}
+
+.navbar-collapse.collapse {
+  display: block !important;
+}
+
+.navbar-nav > li,
+.navbar-nav {
+  float: left !important;
+}
+
+.navbar-nav.navbar-right:last-child {
+  margin-right: -15px !important;
+}
+
+.navbar-right {
+  float: right !important;
 }
